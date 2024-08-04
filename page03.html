@@ -1,0 +1,189 @@
+<!-- Dashboard Maintenance: Subpage 3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prototype Design 1: Dashboard Maintenance Portal: Subpage 3</title>
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- Additional CSS formatting -->
+<link href="styles-default.css" rel="stylesheet">
+</head>
+
+<!-- Main Page Content -->
+<body class="general-body" style="background-color:lightskyblue;">
+<!--Top Menu Navigation-->  
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#" style="font-weight:bold">Prototype 1: Dashboard Support Portal</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="page01.html">Dashboard 1</a>
+          <a class="dropdown-item" href="page02.html">Dashboard 2</a>
+          <a class="dropdown-item" href="page03.html">Dashboard 3</a>
+          <a class="dropdown-item" href="page04.html">Dashboard 4</a>
+          <a class="dropdown-item" href="page05.html">Dashboard 5</a>
+        </div>
+      </li>
+        <!--extra web page positions on nav menu
+        <li class="nav-item">
+          <a class="nav-link" href="#">Web Page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Web Page</a>
+        </li>
+        -->
+    </ul>
+  </div>
+</nav>
+<br>
+<div style="max-width: 1100px; margin: 20px auto; box-shadow: 0 0 10px rgba(0,0,0,0.1);"> <!-- Inline styles for the shadow box -->
+  <h1 style="color: darkslateblue; font-weight:bold; padding-left:auto; padding-right: auto; text-align:center">Dashboard 3</h1>  
+  <img class="main-logo" src="images/page03sample.jpg" alt="Shadow Box Image" style="display: block; width: 100%; border: 1px solid #333; border-radius: 8px;"> <!-- Inline styles for the image -->
+</div>
+<!--Accordion Menu Title-->
+<div class="menu_title">
+  <h1 style="color:darkslateblue; font-weight:bold; padding-left:auto; padding-right: auto; text-align:center">Dashboard Documentation Menu</h1>
+</div>
+<!--Main Body Accordion Menu-->
+<div class="container mt-4">
+  <div class="accordion" id="accordionExample">
+    <!--SubCategory 1-->
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Source Code Files (Read Only)
+          </button>
+        </h2>
+      </div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>PBX-tab-1
+          </p>
+          <p>PBX-tab-2
+          </p>
+          <p>PBX-tab-3
+          </p>
+          <p>PBX-tab-4
+          </p>
+          <p>PBX-tab-5
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--SubCategory 2-->
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Revision History Documentation
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>Revision 1.0
+          </p>
+          <p>Revision 2.0
+          </p>
+          <p>Revision 3.0
+          </p>
+          <p>Revision 3.1
+          </p>
+          <p>Revision 3.2
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--SubCategory 3-->
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Maintenance Guides
+          </button>
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>Maintenance Cycle Schedule
+          </p>
+          <p>Snowflake Connection Log
+          </p>
+          <p>IT Policy
+          </p>
+          <p>FI$CAL Connection Reference
+          </p>
+          <p>Maintenance Log
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--SubCategory 4-->
+    <div class="card">
+        <div class="card-header" id="headingFour">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+             User Guides
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <p>User Guide - Word Doc format
+            </p>
+            <p>User Guide - PDF format
+            </p>
+            <p>User Guide Revision 1.1 - Pending Approval
+            </p>
+            <p>User Guide Revision 1.2 - Pending Approval
+            </p>
+            <p>Glossary Reference
+            </p>
+          </div>
+        </div>
+      </div>
+    <!--SubContact/Support Category-->
+    <div class="card">
+        <div class="card-header" id="headingFive">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Web Support Contact
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+              <p>For issues, errors, outdated information notices or questions, please contact site administration. 
+              </p>
+              <p>
+                Web Support Email <a href="mailto:lynxbot@gmail.com">contact address: email@email.com</a>.
+              </p>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
